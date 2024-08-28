@@ -1,52 +1,45 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike-sharing-assignment
+A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
 
-
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+# General Information
+   A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state. 
+   
+## The company wants to know:
+- Which variables are significant in predicting the demand for shared bikes.
+- How well those variables describe the bike demands
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+    •	Python - 3.11.7
+	•	Anaconda - 2.5.2
+    •	Pandas - 2.1.4
+    •	Jupyter - 7.0.8
+    •	NumPy - 1.26.4
+    •	Matplotlib - 3.8.0
+    •	Seaborn - 0.12.2
+	•	plotly -  5.6.0
+	•	statsmodels - 0.14.2
+	•	sklearn - 0.24.2
+	•	scipy - 1.14.1
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+## Conclusion
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+Significant features:
+1. Year
+2. Weather day is a holiday or not
+3. Temperature
+4. Wind speed
+5. Season type
+6. Months(January, July, September)
+7. Weather situation: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
 
+Comparison of R2 scores:
+1. Train model R2 score is 0.8367
+2. Test mode R2 score is   0.8024
+3. Difference of 0.0343 is in acceptible range.
 
-## Contact
-Created by [@githubusername] - feel free to contact me!
+Residual analysis of Train and Test data
+1. Both the plots are normally distributed
+2. Both are centered around 0
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+**Contributer**
+  •	Karthik Gadepalli
